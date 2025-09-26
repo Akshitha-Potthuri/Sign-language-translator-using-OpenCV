@@ -1,0 +1,13 @@
+from tkinter import *
+from PIL import Image, ImageTk
+import cv2
+from tkinter import filedialog
+import mediapipe as mp
+import pyttsx3
+
+win = Tk()
+width = win.winfo_screenwidth()
+height = win.winfo_screenheight()
+win.geometry("%dx%d" % (width, height))
+win.configure(bg="#FFFFF7")
+win.title('Sign Language Converter')
