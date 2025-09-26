@@ -24,7 +24,7 @@ def wine():
     mpDraw = mp.solutions.drawing_utils
     cap = cv2.VideoCapture(0)
 
-    Gesture recognition and interpretation
+Gesture recognition and interpretation
 The live function processes webcam frames, detects hand landmarks using Mediapipe, and interprets hand gestures based on finger positions and orientations. We will see the gestures like “STOP”, “OKAY”, “VICTORY”, and more, which will be recognized based on the position of landmarks.
 def live():
     global v
@@ -136,7 +136,7 @@ def voice():
     engine.say((upCount.get()))
     engine.runAndWait()
 
-    Video playback and gesture recognition
+Video playback and gesture recognition
 The video function allows us to load external video files. It opens a file dialog using the filedialog library, captures video frames from the selected video file, and calls the live function to perform gesture recognition on the video frames.
 def video():
     global cap, ex, label1
