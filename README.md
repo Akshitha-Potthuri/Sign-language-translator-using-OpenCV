@@ -144,3 +144,8 @@ def video():
               filetypes=(("mp4 files", ".mp4"), ("all files", ".")))
     cap = cv2.VideoCapture(filename)
     live()
+
+Output
+
+<img width="653" height="496" alt="image" src="https://github.com/user-attachments/assets/81737985-6a00-4e5c-be94-dfa03d95a9ef" />
+
